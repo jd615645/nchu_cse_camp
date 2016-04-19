@@ -1,0 +1,15 @@
+body {
+	color: #EEEEEE;
+	font-family:'Roboto', '黑體-繁', '微軟正黑體', sans-serif;
+}
+h3 {
+	font-size: 50px;
+	font-family:'Roboto', '黑體-繁', '微軟正黑體', sans-serif !important;
+}
+h4 {
+	font-size: 30px;
+	font-family:'Roboto', '黑體-繁', '微軟正黑體', sans-serif !important;
+}
+.section {
+	text-align: center;
+}
