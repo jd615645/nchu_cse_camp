@@ -3,13 +3,78 @@ body {
 	font-family:'Roboto', '黑體-繁', '微軟正黑體', sans-serif;
 }
 h3 {
+	color: #00A5A2;
 	font-size: 50px;
 	font-family:'Roboto', '黑體-繁', '微軟正黑體', sans-serif !important;
 }
 h4 {
+	color: #00A5A2;
+	font-size: 40px;
+	font-family:'Roboto', '黑體-繁', '微軟正黑體', sans-serif !important;
+}
+h5 {
+	color: #00A5A2;
 	font-size: 30px;
 	font-family:'Roboto', '黑體-繁', '微軟正黑體', sans-serif !important;
 }
+p {
+	font-size: 20px;
+}
+a {
+	font-weight : bold;
+	color: #E5E56B;
+}
+a:hover, a:focus {
+	color: #FEFF92;
+	text-decoration:underline;
+}
+
+.button {
+	background: #00ADB5 !important;
+  font-size: 20px !important;
+	font-family:'Roboto', '黑體-繁', '微軟正黑體', sans-serif !important;
+}
+
+#img_logo {
+	width: 100%;
+}
+
+.about-page {
+	text-align: justify;
+	text-indent: 40px;
+}
 .section {
 	text-align: center;
+}
+.camp-target {
+	padding-left: 40px;
+	padding-bottom: 60px;
+}
+@media screen and (max-width: 767px) {
+	#about, #apply, #schedule {
+		margin: 30px 35px !important;
+	}
+
+	.camp-target {
+		padding-bottom: 30px;
+	}
+}
+
+#apply h5 {
+	text-align: left;
+}
+.camp-target p{
+	margin-bottom: 0px;
+	text-align: justify;
+}
+.camp-info p {
+	text-align: center;
+}
+
+.camp-apply {
+	text-align: justify;
+	padding-left: 40px;
+}
+.camp-apply p {
+	margin-bottom: 0px;
 }
