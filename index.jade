@@ -1,0 +1,160 @@
+doctype html
+html
+  head
+    title 2016 中興大學 資工營
+    meta(charset='utf-8')
+    meta(http-equiv='X-UA-Compatible', content='IE=edge')
+    meta(name='viewport', content='width=device-width, initial-scale=1')
+    link(rel='stylesheet', href='//cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.1.6/semantic.min.css')
+    link(rel='stylesheet', href='//cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.7.9/jquery.fullPage.css')
+    link(rel='stylesheet', href='//maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css')
+    link(rel='stylesheet', href='./css/main.css')
+  body
+    #main
+      .section
+        .ui.container
+          img#img_logo(src='./img/logo.png')
+      .section
+        #about.ui.container
+          h4 關於資工營
+          p.about-page
+            | 近年來資訊科學成為現在各國極為重視的產業，生活中無處不能看到與資訊科學相關的東西，像是智慧型的手機、電腦或是各種智慧型的行動裝置。現今的社會、生活各個方面都已經跟資訊科學很緊密的結合了。本系多年來以培養國家尖端資訊產業人才為職志。基於這樣的理念，所以本系舉辦「2016中興資工營」希望藉由深入淺出的教學，輔以有趣的實際上機練習的課程，藉此來啟發高中學生對於資訊科學的興趣，為資訊科學領域培養未來的人才。
+          p.about-page
+            | 資工營將會以資工系的基礎下，在課程方面，帶給同學HTML、CSS和Javascript等，讓學員在實際操作的過程中，能夠對程式產生一些基本的概念；生活方面，我們會提供優良而且健康的膳食，讓學員能夠在有充足的體力與精神的情況下，完成營隊的課程和活動。
+          p(style='text-align: left;') 以下是我們的活動目標：
+          .camp-target
+            p 一、引導學員對基本的資訊科學的認識。
+            p 二、啟發年輕學子投入資訊科學領域的興趣。
+            p 三、讓大家對於資訊的安全能有基本的概念。
+          .ui.equal.width.grid.stackable.camp-info
+            .column
+              h5 主辦單位
+              p 中興資工系學會
+            .column
+              h5 協辦單位
+              p 中興大學資工系
+              p 中興大學資訊社
+            .column
+              h5 活動時間
+              p 2016.07.10 ~ 2016.07.13
+            .column
+              h5 活動地點
+              p 中興大學
+      .section
+        #apply.ui.container
+          h3 報名
+          .ui.grid
+            .six.wide.column(style='text-align: right;')
+              p 招收對象
+              p 活動費用
+              p
+                br
+              p 開放報名
+              p 報名截止
+            .ten.wide.column(style='text-align: left;')
+              p 全國高中職生含應屆畢業生
+              p 新台幣 4500 元整
+              p 若2人以上團報每人 3900 元整
+              p 2016.04.14
+              p 2016.06.13
+          p(style='text-align: left; margin: 10px 0px;')
+            | 若要報名至下方連結填寫資料 
+            a(target='_blank', href='https://goo.gl/ZopkfR') 繳費說明
+          a.fluid.ui.button(target='_blank', href='http://goo.gl/forms/92cklpc6de') 我要報名！
+          h5 注意事項
+          .camp-apply
+            p * 活動費用包含食宿、保險、講師費、材料費、營服等。
+            p
+              | * 退費相關問題請見 
+              a(target='_blank', href='https://goo.gl/ZopkfR') 繳費說明
+            p * 後續通知及行前注意事項均將透過學員填寫之電子信箱聯繫，請務必保持收信以免影響個人權益。
+            p
+              | * 若營隊因營期前發生不可抗拒天然災害(颱風、地震等)而無法舉辦，本營隊將退費50%(扣除訂金問題及相關食宿、保險、手冊等營期間使用費用，以及營服、紀念品製作費用。)，而小隊員將會收到營服及營隊紀念品。
+            p * 任何相關問題請寄信至 [這裡填聯絡的email]，我們將盡快與您連絡。
+      .section
+        #schedule.ui.container
+          h3 活動規劃
+          table#schedule_table
+            tbody
+              tr
+                td  
+                td 07.10
+                td 07.11
+                td 07.12
+                td 07.13
+              tr
+                td 
+                  | 08:00
+                  br
+                  | ~
+                  br
+                  | 09:00
+                td
+                td 早團康
+                td 早團康
+                td Runing Man
+              tr
+                td 
+                  | 09:00
+                  br
+                  | ~
+                  br
+                  | 12:00
+                td 學員報到
+                td HTML+CSS
+                td HTML+CSS
+                td Javascript
+              tr
+                td 
+                  | 12:00
+                  br
+                  | ~
+                  br
+                  | 13:00
+                td(colspan="4") 午餐時間
+              tr
+                td 
+                  | 13:00
+                  br
+                  | ~
+                  br
+                  | 15:00
+                td 相見歡
+                td 主題講座
+                td 主題講座
+                td 大水池
+              tr
+                td
+                  | 15:00
+                  br
+                  | ~
+                  br
+                  | 18:00
+                td 網頁課程
+                td 大地遊戲
+                td RPG
+                td 感性時間
+              tr
+                td
+                  | 18:00
+                  br
+                  | ~
+                  br
+                  | 19:00
+                td Casion
+                td(colspan="2") 下午茶
+                td(rowspan="2") 赴歸
+              tr
+                td
+                  | 19:00
+                  br
+                  | ~
+                  br
+                  | 21:00
+                td 烤肉大會
+                td 晚會
+                td 密室逃脫
+    script(src='//code.jquery.com/jquery-2.2.3.js')
+    script(src='//cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.7.9/jquery.fullPage.js')
+    script(src='//cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.1.6/semantic.min.js')
+    script(src='./js/main.js')

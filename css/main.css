@@ -28,6 +28,11 @@ a:hover, a:focus {
 	color: #FEFF92;
 	text-decoration:underline;
 }
+td {
+	color: #EEEEEE;
+	font-size: 20px;
+	text-align: center !important;
+}
 
 .button {
 	background: #00ADB5 !important;
@@ -77,4 +82,15 @@ a:hover, a:focus {
 }
 .camp-apply p {
 	margin-bottom: 0px;
+}
+
+#schedule_table {
+	width: 100%;
+	background-color: #083358;
+}
+#schedule_table td {
+	border: 2px solid #3A4750;
+}
+#schedule_table td {
+	padding: 15px;
 }
