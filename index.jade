@@ -7,7 +7,6 @@ html
     meta(name='viewport', content='width=device-width, initial-scale=1')
     link(rel='stylesheet', href='//cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.1.6/semantic.min.css')
     link(rel='stylesheet', href='//cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.7.9/jquery.fullPage.css')
-    link(rel='stylesheet', href='//maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css')
     link(rel='stylesheet', href='./css/main.css')
   body
     #main
@@ -74,87 +73,116 @@ html
       .section
         #schedule.ui.container
           h3 活動規劃
-          table#schedule_table
-            tbody
-              tr
-                td  
-                td 07.10
-                td 07.11
-                td 07.12
-                td 07.13
-              tr
-                td 
-                  | 08:00
-                  br
-                  | ~
-                  br
-                  | 09:00
-                td
-                td 早團康
-                td 早團康
-                td Runing Man
-              tr
-                td 
-                  | 09:00
-                  br
-                  | ~
-                  br
-                  | 12:00
-                td 學員報到
-                td HTML+CSS
-                td HTML+CSS
-                td Javascript
-              tr
-                td 
-                  | 12:00
-                  br
-                  | ~
-                  br
-                  | 13:00
-                td(colspan="4") 午餐時間
-              tr
-                td 
-                  | 13:00
-                  br
-                  | ~
-                  br
-                  | 15:00
-                td 相見歡
-                td 主題講座
-                td 主題講座
-                td 大水池
-              tr
-                td
-                  | 15:00
-                  br
-                  | ~
-                  br
-                  | 18:00
-                td 網頁課程
-                td 大地遊戲
-                td RPG
-                td 感性時間
-              tr
-                td
-                  | 18:00
-                  br
-                  | ~
-                  br
-                  | 19:00
-                td Casion
-                td(colspan="2") 下午茶
-                td(rowspan="2") 赴歸
-              tr
-                td
-                  | 19:00
-                  br
-                  | ~
-                  br
-                  | 21:00
-                td 烤肉大會
-                td 晚會
-                td 密室逃脫
+          #schedule_table
+            table
+              tbody
+                tr
+                  td  
+                  td 07.10
+                  td 07.11
+                  td 07.12
+                  td 07.13
+                tr
+                  td 
+                    | 08:00
+                    br
+                    | ~
+                    br
+                    | 09:00
+                  td
+                  td
+                    p 早團康
+                  td
+                    p 早團康
+                  td Runing Man
+                tr
+                  td 
+                    | 09:00
+                    br
+                    | ~
+                    br
+                    | 12:00
+                  td 學員報到
+                  td
+                    | 課程
+                    br
+                    | HTML+CSS
+                  td
+                    | 課程
+                    br
+                    | HTML+CSS
+                  td
+                    | 課程
+                    br
+                    | Javascript
+                tr
+                  td 
+                    | 12:00
+                    br
+                    | ~
+                    br
+                    | 13:00
+                  td(colspan="4") 午餐時間
+                tr
+                  td 
+                    | 13:00
+                    br
+                    | ~
+                    br
+                    | 15:00
+                  td 相見歡
+                  td 主題講座
+                  td 主題講座
+                  td 大水池
+                tr
+                  td
+                    | 15:00
+                    br
+                    | ~
+                    br
+                    | 18:00
+                  td 網頁課程
+                  td 大地遊戲
+                  td RPG
+                  td 感性時間
+                tr
+                  td
+                    | 18:00
+                    br
+                    | ~
+                    br
+                    | 19:00
+                  td Casion
+                  td(colspan="2") 下午茶
+                  td(rowspan="2") 赴歸
+                tr
+                  td
+                    | 19:00
+                    br
+                    | ~
+                    br
+                    | 21:00
+                  td 烤肉大會
+                  td 晚會
+                  td 密室逃脫
+      .section
+        #contact
+          .ui.container
+            h3 聯絡我們
+            h5 主辦單位
+            .ui.grid.stackable
+              .eight.wide.column
+                a.ui.large.image(href='https://www.facebook.com/NCHU.CSESA/' target='_blank')
+                  img(src='./img/cse_logo.png')
+            h5 協辦單位
+            .ui.grid.stackable
+              .eight.wide.column
+                a.ui.large.image(href='http://www.cs.nchu.edu.tw/v3x/' target='_blank')
+                  img(src='./img/nchu_cse_logo.png')
+              .eight.wide.column
+                a.ui.large.image(href='http://nchuit.cc/' target='_blank')
+                  img(src='./img/nchuit_logo.png')
     script(src='//code.jquery.com/jquery-2.2.3.js')
-    script(src='//cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.7.9/jquery.fullPage.js')
+    script(src='//cdn.dowebok.com/77/js/jquery.fullPage.min.js')
     script(src='//cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.1.6/semantic.min.js')
     script(src='./js/main.js')

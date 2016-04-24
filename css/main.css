@@ -1,96 +1,118 @@
 body {
-	color: #EEEEEE;
-	font-family:'Roboto', '黑體-繁', '微軟正黑體', sans-serif;
+  color: #EEEEEE;
+  font-family:'Roboto', '黑體-繁', '微軟正黑體', sans-serif;
 }
 h3 {
-	color: #00A5A2;
-	font-size: 50px;
-	font-family:'Roboto', '黑體-繁', '微軟正黑體', sans-serif !important;
+  color: #00A5A2;
+  font-size: 50px;
+  font-family:'Roboto', '黑體-繁', '微軟正黑體', sans-serif !important;
 }
 h4 {
-	color: #00A5A2;
-	font-size: 40px;
-	font-family:'Roboto', '黑體-繁', '微軟正黑體', sans-serif !important;
+  color: #00A5A2;
+  font-size: 40px;
+  font-family:'Roboto', '黑體-繁', '微軟正黑體', sans-serif !important;
 }
 h5 {
-	color: #00A5A2;
-	font-size: 30px;
-	font-family:'Roboto', '黑體-繁', '微軟正黑體', sans-serif !important;
+  color: #00A5A2;
+  font-size: 30px;
+  font-family:'Roboto', '黑體-繁', '微軟正黑體', sans-serif !important;
 }
 p {
-	font-size: 20px;
+  font-size: 20px;
 }
 a {
-	font-weight : bold;
-	color: #E5E56B;
+  font-weight : bold;
+  color: #E5E56B;
 }
 a:hover, a:focus {
-	color: #FEFF92;
-	text-decoration:underline;
+  color: #FEFF92;
+  text-decoration:underline;
 }
-td {
-	color: #EEEEEE;
-	font-size: 20px;
-	text-align: center !important;
-}
-
 .button {
-	background: #00ADB5 !important;
+  background: #00ADB5 !important;
   font-size: 20px !important;
-	font-family:'Roboto', '黑體-繁', '微軟正黑體', sans-serif !important;
+  font-family:'Roboto', '黑體-繁', '微軟正黑體', sans-serif !important;
 }
 
 #img_logo {
-	width: 100%;
+  width: 100%;
 }
 
 .about-page {
-	text-align: justify;
-	text-indent: 40px;
+  text-align: justify;
+  text-indent: 40px;
 }
 .section {
-	text-align: center;
+  text-align: center;
 }
 .camp-target {
-	padding-left: 40px;
-	padding-bottom: 60px;
+  padding-left: 40px;
+  padding-bottom: 60px;
 }
 @media screen and (max-width: 767px) {
-	#about, #apply, #schedule {
-		margin: 30px 35px !important;
-	}
+  #about, #apply, #schedule, #contact {
+    margin: 30px 35px !important;
+  }
 
-	.camp-target {
-		padding-bottom: 30px;
-	}
+  .camp-target {
+    padding-bottom: 30px;
+  }
 }
 
 #apply h5 {
-	text-align: left;
+  text-align: left;
 }
 .camp-target p{
-	margin-bottom: 0px;
-	text-align: justify;
+  margin-bottom: 0px;
+  text-align: justify;
 }
 .camp-info p {
-	text-align: center;
+  text-align: center;
 }
 
 .camp-apply {
-	text-align: justify;
-	padding-left: 40px;
+  text-align: justify;
+  padding-left: 40px;
 }
 .camp-apply p {
-	margin-bottom: 0px;
+  margin-bottom: 0px;
 }
 
 #schedule_table {
-	width: 100%;
-	background-color: #083358;
+  overflow-y: auto;
+}
+
+#schedule_table table{
+  width: 100%;
+  background-color: #2D4059;
 }
 #schedule_table td {
-	border: 2px solid #3A4750;
+  border: 2px solid #3A4750;
 }
 #schedule_table td {
-	padding: 15px;
+  padding: 15px 5px;
+  color: #EEEEEE;
+  font-size: 18px;
+  text-align: center !important;
+}
+
+.logo-img {
+  height: 240px;
+  width: 360px;
+  padding: 5px;
+  background: #ffffff no-repeat center center;
+  background-size: contain;
+}
+
+#contact h5 {
+  text-align: left;
+}
+#cse_logo {
+  background-image: url(../img/cse_logo.png);
+}
+#nchu_cse_logo {
+  background-image: url(../img/nchu_cse_logo.png);
+}
+#nchuit_logo {
+  background-image: url(../img/nchuit_logo.png);
 }
