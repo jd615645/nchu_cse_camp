@@ -2,6 +2,18 @@ jQuery(document).ready(function($) {
   $('#main').fullpage({
     sectionsColor: ['#0A0A0A', '#393E46', '#303841', '#3A4750', '#222831']
   });
+  
+  $('#main').setAutoScrolling(false);
+  $('#main').setAllowScrolling(false);
+  $('#main').setKeyboardScrolling(false);
+
+  setTimeout(function() {
+    $('#loader-wrapper').fadeOut(500);
+    $('#main').setAllowScrolling(tre);
+    $('#main').setKeyboardScrolling(false);
+    autoScrolling();
+  }, 3000);
+
   $(window).resize(function(){
     autoScrolling();
   });
@@ -28,8 +40,4 @@ jQuery(document).ready(function($) {
     $('#schedule_detai_' + which_detail).modal('hide');
   });
 
-  setTimeout(function() {
-    $('#loader-wrapper').fadeOut(500);
-    autoScrolling();
-  }, 3000);
 });
