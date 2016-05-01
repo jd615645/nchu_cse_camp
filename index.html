@@ -83,11 +83,11 @@
             <table>
               <tbody>
                 <tr>
-                  <td> </td>
-                  <td>07.10</td>
-                  <td>07.11</td>
-                  <td>07.12</td>
-                  <td>07.13</td>
+                  <td width="10%"> </td>
+                  <td width="22.5%">07.10</td>
+                  <td width="22.5%">07.11</td>
+                  <td width="22.5%">07.12</td>
+                  <td width="22.5%">07.13</td>
                 </tr>
                 <tr>
                   <td>
@@ -95,13 +95,9 @@
                     08:00<br>~<br>09:00
                   </td>
                   <td></td>
-                  <td>
-                    <p>早團康</p>
-                  </td>
-                  <td>
-                    <p>早團康</p>
-                  </td>
-                  <td>Runing Man</td>
+                  <td>小隊時間</td>
+                  <td>小隊時間</td>
+                  <td>小隊時間</td>
                 </tr>
                 <tr>
                   <td>
@@ -109,16 +105,34 @@
                     09:00<br>~<br>12:00
                   </td>
                   <td>學員報到</td>
-                  <td>課程<br>HTML+CSS</td>
-                  <td>課程<br>HTML+CSS</td>
-                  <td>課程<br>Javascript</td>
+                  <td id="schedule_1" value="1" class="schedule_detail">課程<br>Web(上)</td>
+                  <div id="schedule_detai_1" class="ui modal">
+                    <div class="content">
+                      <p><i value="1" class="link close icon"></i></p>
+                      <p>課程主題 《Web》</p>
+                      <p>課程介紹</p>
+                      <p class="schedule_introduce">網路已是目前獲得資訊的重要媒介，透過網頁讓我們在能在廣大的網路世界做交流。</p>
+                      <p class="schedule_introduce">本課程或學習HTML的基礎，再搭配CSS、JavaScript讓整個網頁更加繽紛。並藉由此課程來簡單介紹程式語言的奧妙。</p>
+                    </div>
+                  </div>
+                  <td id="schedule_1" value="1" class="schedule_detail">課程<br>Web(下)</td>
+                  <td id="schedule_2" value="2" class="schedule_detail">課程<br>電路實作</td>
+                  <div id="schedule_detai_2" class="ui modal">
+                    <div class="content">
+                      <p><i value="2" class="link close icon"></i></p>
+                      <p>課程主題 《電路實作》</p>
+                      <p>課程介紹</p>
+                      <p class="schedule_introduce"></p>
+                    </div>
+                  </div>
                 </tr>
                 <tr>
                   <td>
                      
                     12:00<br>~<br>13:00
                   </td>
-                  <td colspan="4">午餐時間</td>
+                  <td>小隊員集合</td>
+                  <td colspan="3">午餐時間</td>
                 </tr>
                 <tr>
                   <td>
@@ -126,27 +140,44 @@
                     13:00<br>~<br>15:00
                   </td>
                   <td>相見歡</td>
-                  <td>主題講座</td>
-                  <td>主題講座</td>
+                  <td rowspan="2">RPG遊戲時間</td>
+                  <td id="schedule_3" value="3" class="schedule_detail">專題演講<br>人工智慧與電腦圍棋</td>
+                  <div id="schedule_detai_3" class="ui modal">
+                    <div class="content">
+                      <p><i value="3" class="link close icon"></i></p>
+                      <p>專題演講 《人工智慧與電腦圍棋》</p>
+                      <p>講師 許舜欽 教授</p>
+                      <p>演講介紹</p>
+                      <p class="schedule_introduce">大家還記得今年AlphaGo人工智慧圍棋程式跟韓國圍棋高手李世乭對弈到最後人類以4：1落敗給電腦，這一天人類又想起了人工智慧的可怕！</p>
+                      <p class="schedule_introduce">AlphaGo團隊裡面有幕後推手是來自台灣的黃士傑，我們營隊特地請來他的啟蒙老師 許舜欽教授來講解＂人工智慧與電腦圍棋＂讓大家可以了解AlphaGo背後的原理，淺談一下人工智慧對我們生活的影響。</p>
+                    </div>
+                  </div>
                   <td>大水池</td>
                 </tr>
                 <tr>
                   <td>15:00<br>~<br>18:00</td>
-                  <td>網頁課程</td>
+                  <td id="schedule_4" value="4" class="schedule_detail">專題演講<br>資訊學群與資訊科技發展趨勢</td>
+                  <div id="schedule_detai_4" class="ui modal">
+                    <div class="content">
+                      <p><i value="4" class="link close icon"></i></p>
+                      <p>專題演講 《資訊學群與資訊科技發展趨勢》</p>
+                      <p>講師 廖宜恩 主任</p>
+                      <p>演講介紹</p>
+                      <p class="schedule_introduce"></p>
+                    </div>
+                  </div>
                   <td>大地遊戲</td>
-                  <td>RPG</td>
-                  <td>感性時間</td>
+                  <td>結業典禮</td>
                 </tr>
                 <tr>
                   <td>18:00<br>~<br>19:00</td>
-                  <td>Casion</td>
-                  <td colspan="2">下午茶</td>
+                  <td colspan="3">晚餐時間</td>
                   <td rowspan="2">赴歸</td>
                 </tr>
                 <tr>
                   <td>19:00<br>~<br>21:00</td>
+                  <td>歡迎大會</td>
                   <td>烤肉大會</td>
-                  <td>晚會</td>
                   <td>密室逃脫</td>
                 </tr>
               </tbody>
@@ -157,15 +188,29 @@
       <div class="section">
         <div id="contact">
           <div class="ui container">
-            <h3>聯絡我們</h3>
             <h5>主辦單位</h5>
             <div class="ui grid stackable">
-              <div class="eight wide column"><a href="https://www.facebook.com/NCHU.CSESA/" target="_blank" class="ui large image"><img src="./img/cse_logo.png"></a></div>
+              <div class="eight wide column"><a href="https://www.facebook.com/NCHU.CSESA/" target="_blank" class="ui image logo_img">
+                  <div class="ui dimmer">
+                    <div class="content">
+                      <p>中興資工系學會</p>
+                    </div>
+                  </div><img src="./img/cse_logo.png"></a></div>
             </div>
             <h5>協辦單位</h5>
             <div class="ui grid stackable">
-              <div class="eight wide column"><a href="http://www.cs.nchu.edu.tw/v3x/" target="_blank" class="ui large image"><img src="./img/nchu_cse_logo.png"></a></div>
-              <div class="eight wide column"><a href="http://nchuit.cc/" target="_blank" class="ui large image"><img src="./img/nchuit_logo.png"></a></div>
+              <div class="eight wide column"><a href="http://www.cs.nchu.edu.tw/v3x/" target="_blank" class="ui image logo_img">
+                  <div class="ui dimmer">
+                    <div class="content">
+                      <p>中興大學資工系</p>
+                    </div>
+                  </div><img src="./img/nchu_cse_logo.png"></a></div>
+              <div class="eight wide column"><a href="http://nchuit.cc/" target="_blank" class="ui image logo_img">
+                  <div class="ui dimmer">
+                    <div class="content">
+                      <p>中興大學資訊社</p>
+                    </div>
+                  </div><img src="./img/nchuit_logo.png"></a></div>
             </div>
           </div>
         </div>

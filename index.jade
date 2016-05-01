@@ -77,11 +77,11 @@ html
             table
               tbody
                 tr
-                  td  
-                  td 07.10
-                  td 07.11
-                  td 07.12
-                  td 07.13
+                  td(width='10%')  
+                  td(width='22.5%') 07.10
+                  td(width='22.5%') 07.11
+                  td(width='22.5%') 07.12
+                  td(width='22.5%') 07.13
                 tr
                   td 
                     | 08:00
@@ -91,10 +91,11 @@ html
                     | 09:00
                   td
                   td
-                    p 早團康
+                    | 小隊時間
                   td
-                    p 早團康
-                  td Runing Man
+                    | 小隊時間
+                  td
+                    | 小隊時間
                 tr
                   td 
                     | 09:00
@@ -103,18 +104,33 @@ html
                     br
                     | 12:00
                   td 學員報到
-                  td
+                  td.schedule_detail#schedule_1(value='1')
                     | 課程
                     br
-                    | HTML+CSS
-                  td
+                    | Web(上)
+                  .ui.modal#schedule_detai_1
+                    .content
+                      p
+                        i.link.close.icon(value='1')
+                      p 課程主題 《Web》
+                      p 課程介紹
+                      p.schedule_introduce 網路已是目前獲得資訊的重要媒介，透過網頁讓我們在能在廣大的網路世界做交流。
+                      p.schedule_introduce 本課程或學習HTML的基礎，再搭配CSS、JavaScript讓整個網頁更加繽紛。並藉由此課程來簡單介紹程式語言的奧妙。
+                  td.schedule_detail#schedule_1(value='1')
                     | 課程
                     br
-                    | HTML+CSS
-                  td
+                    | Web(下)
+                  td.schedule_detail#schedule_2(value='2')
                     | 課程
                     br
-                    | Javascript
+                    | 電路實作
+                  .ui.modal#schedule_detai_2
+                    .content
+                      p
+                        i.link.close.icon(value='2')
+                      p 課程主題 《電路實作》
+                      p 課程介紹
+                      p.schedule_introduce
                 tr
                   td 
                     | 12:00
@@ -122,7 +138,9 @@ html
                     | ~
                     br
                     | 13:00
-                  td(colspan="4") 午餐時間
+                  td
+                    | 小隊員集合
+                  td(colspan="3") 午餐時間
                 tr
                   td 
                     | 13:00
@@ -131,8 +149,20 @@ html
                     br
                     | 15:00
                   td 相見歡
-                  td 主題講座
-                  td 主題講座
+                  td(rowspan="2") RPG遊戲時間
+                  td.schedule_detail#schedule_3(value='3')
+                    | 專題演講
+                    br
+                    | 人工智慧與電腦圍棋
+                  .ui.modal#schedule_detai_3
+                    .content
+                      p
+                        i.link.close.icon(value='3')
+                      p 專題演講 《人工智慧與電腦圍棋》
+                      p 講師 許舜欽 教授
+                      p 演講介紹
+                      p.schedule_introduce 大家還記得今年AlphaGo人工智慧圍棋程式跟韓國圍棋高手李世乭對弈到最後人類以4：1落敗給電腦，這一天人類又想起了人工智慧的可怕！
+                      p.schedule_introduce AlphaGo團隊裡面有幕後推手是來自台灣的黃士傑，我們營隊特地請來他的啟蒙老師 許舜欽教授來講解＂人工智慧與電腦圍棋＂讓大家可以了解AlphaGo背後的原理，淺談一下人工智慧對我們生活的影響。
                   td 大水池
                 tr
                   td
@@ -141,10 +171,20 @@ html
                     | ~
                     br
                     | 18:00
-                  td 網頁課程
+                  td.schedule_detail#schedule_4(value='4')
+                    | 專題演講
+                    br
+                    | 資訊學群與資訊科技發展趨勢
+                  .ui.modal#schedule_detai_4
+                    .content
+                      p
+                        i.link.close.icon(value='4')
+                      p 專題演講 《資訊學群與資訊科技發展趨勢》
+                      p 講師 廖宜恩 主任
+                      p 演講介紹
+                      p.schedule_introduce
                   td 大地遊戲
-                  td RPG
-                  td 感性時間
+                  td 結業典禮
                 tr
                   td
                     | 18:00
@@ -152,8 +192,7 @@ html
                     | ~
                     br
                     | 19:00
-                  td Casion
-                  td(colspan="2") 下午茶
+                  td(colspan="3") 晚餐時間
                   td(rowspan="2") 赴歸
                 tr
                   td
@@ -162,25 +201,36 @@ html
                     | ~
                     br
                     | 21:00
+                  td 歡迎大會
                   td 烤肉大會
-                  td 晚會
                   td 密室逃脫
+
       .section
         #contact
           .ui.container
-            h3 聯絡我們
             h5 主辦單位
             .ui.grid.stackable
               .eight.wide.column
-                a.ui.large.image(href='https://www.facebook.com/NCHU.CSESA/' target='_blank')
+                a.ui.image.logo_img(href='https://www.facebook.com/NCHU.CSESA/' target='_blank')
+                  .ui.dimmer
+                    .content
+                      p 中興資工系學會
                   img(src='./img/cse_logo.png')
+
+  
             h5 協辦單位
             .ui.grid.stackable
               .eight.wide.column
-                a.ui.large.image(href='http://www.cs.nchu.edu.tw/v3x/' target='_blank')
+                a.ui.image.logo_img(href='http://www.cs.nchu.edu.tw/v3x/' target='_blank')
+                  .ui.dimmer
+                    .content
+                      p 中興大學資工系
                   img(src='./img/nchu_cse_logo.png')
               .eight.wide.column
-                a.ui.large.image(href='http://nchuit.cc/' target='_blank')
+                a.ui.image.logo_img(href='http://nchuit.cc/' target='_blank')
+                  .ui.dimmer
+                    .content
+                      p 中興大學資訊社
                   img(src='./img/nchuit_logo.png')
     script(src='//code.jquery.com/jquery-2.2.3.js')
     script(src='//cdn.dowebok.com/77/js/jquery.fullPage.min.js')
