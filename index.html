@@ -7,12 +7,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="2016中興資工營 不法資徒">
     <meta name="author" content="Sakamoto">
+    <link rel="stylesheet" href="./css/loading.css">
     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.1.6/semantic.min.css">
     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.7.9/jquery.fullPage.css">
     <link rel="stylesheet" href="./css/main.css">
   </head>
   <body>
     <div id="main">
+      <div id="loader-wrapper">
+        <div id="loader"></div>
+        <div class="loader-section section-left"></div>
+        <div class="loader-section section-right"></div>
+      </div>
       <div class="section">
         <div class="ui container"><img id="img_logo" src="./img/logo.png"></div>
       </div>
@@ -52,14 +58,14 @@
         <div id="apply" class="ui container">
           <h3>報名</h3>
           <div class="ui grid">
-            <div style="text-align: right;" class="six wide column">
+            <div class="six wide column">
               <p>招收對象</p>
               <p>活動費用</p>
               <p><br></p>
               <p>開放報名</p>
               <p>報名截止</p>
             </div>
-            <div style="text-align: left;" class="ten wide column">
+            <div class="ten wide column">
               <p>全國高中職生含應屆畢業生</p>
               <p>新台幣 4500 元整</p>
               <p>若2人以上團報每人 3900 元整</p>
@@ -74,7 +80,11 @@
             <p>* 退費相關問題請見 <a target="_blank" href="https://goo.gl/sGOWtD">繳費說明</a></p>
             <p>* 後續通知及行前注意事項均將透過學員填寫之電子信箱聯繫，請務必保持收信以免影響個人權益。</p>
             <p>* 若營隊因營期前發生不可抗拒天然災害(颱風、地震等)而無法舉辦，本營隊將退費50%(扣除訂金問題及相關食宿、保險、手冊等營期間使用費用，以及營服、紀念品製作費用。)，而小隊員將會收到營服及營隊紀念品。</p>
-            <p>* 任何相關問題請寄信至 [這裡填聯絡的email]，我們將盡快與您連絡。</p>
+          </div>
+          <h5>聯絡資訊</h5>
+          <div class="camp-contact">
+            <p><i class="icon mail"></i>E-mail: sln9233@gmail.com</p>
+            <p><i class="icon phone"></i>Phone: 0978-0310-09</p>
           </div>
         </div>
       </div>
@@ -124,7 +134,7 @@
                       <p><i value="2" class="link close icon"></i></p>
                       <p>課程主題 《電路實作》</p>
                       <p>課程介紹</p>
-                      <p class="schedule_introduce"></p>
+                      <p class="schedule_introduce">(近期更新內容...)</p>
                     </div>
                   </div>
                 </tr>
@@ -165,7 +175,7 @@
                       <p>專題演講 《資訊學群與資訊科技發展趨勢》</p>
                       <p>講師 廖宜恩 主任</p>
                       <p>演講介紹</p>
-                      <p class="schedule_introduce"></p>
+                      <p class="schedule_introduce">(近期更新內容...)</p>
                     </div>
                   </div>
                   <td>大地遊戲</td>
@@ -191,23 +201,24 @@
         <div id="contact">
           <div class="ui container">
             <h5>主辦單位</h5>
-            <div class="ui grid stackable">
-              <div class="eight wide column"><a href="https://www.facebook.com/NCHU.CSESA/" target="_blank" class="ui image logo_img">
+            <div class="ui equal width grid stackable">
+              <div class="column"><a href="https://www.facebook.com/NCHU.CSESA/" target="_blank" class="ui image logo_img">
                   <div class="ui dimmer">
                     <div class="content">
                       <p>中興資工系學會</p>
                     </div>
                   </div><img src="./img/cse_logo.png"></a></div>
+              <div class="column"></div>
             </div>
             <h5>協辦單位</h5>
-            <div class="ui grid stackable">
-              <div class="eight wide column"><a href="http://www.cs.nchu.edu.tw/v3x/" target="_blank" class="ui image logo_img">
+            <div class="ui equal width grid stackable">
+              <div class="column"><a href="http://www.cs.nchu.edu.tw/v3x/" target="_blank" class="ui image logo_img">
                   <div class="ui dimmer">
                     <div class="content">
                       <p>中興大學資工系</p>
                     </div>
                   </div><img src="./img/nchu_cse_logo.png"></a></div>
-              <div class="eight wide column"><a href="http://nchuit.cc/" target="_blank" class="ui image logo_img">
+              <div class="column"><a href="http://nchuit.cc/" target="_blank" class="ui image logo_img">
                   <div class="ui dimmer">
                     <div class="content">
                       <p>中興大學資訊社</p>

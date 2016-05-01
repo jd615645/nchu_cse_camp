@@ -7,11 +7,17 @@ html
     meta(name='viewport', content='width=device-width, initial-scale=1')
     meta(name='description', content='2016中興資工營 不法資徒')
     meta(name='author', content='Sakamoto')
+    link(rel='stylesheet', href='./css/loading.css')
     link(rel='stylesheet', href='//cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.1.6/semantic.min.css')
     link(rel='stylesheet', href='//cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.7.9/jquery.fullPage.css')
     link(rel='stylesheet', href='./css/main.css')
   body
     #main
+      #loader-wrapper
+        #loader
+        .loader-section.section-left
+        .loader-section.section-right
+
       .section
         .ui.container
           img#img_logo(src='./img/logo.png')
@@ -45,14 +51,14 @@ html
         #apply.ui.container
           h3 報名
           .ui.grid
-            .six.wide.column(style='text-align: right;')
+            .six.wide.column
               p 招收對象
               p 活動費用
               p
                 br
               p 開放報名
               p 報名截止
-            .ten.wide.column(style='text-align: left;')
+            .ten.wide.column
               p 全國高中職生含應屆畢業生
               p 新台幣 4500 元整
               p 若2人以上團報每人 3900 元整
@@ -71,7 +77,14 @@ html
             p * 後續通知及行前注意事項均將透過學員填寫之電子信箱聯繫，請務必保持收信以免影響個人權益。
             p
               | * 若營隊因營期前發生不可抗拒天然災害(颱風、地震等)而無法舉辦，本營隊將退費50%(扣除訂金問題及相關食宿、保險、手冊等營期間使用費用，以及營服、紀念品製作費用。)，而小隊員將會收到營服及營隊紀念品。
-            p * 任何相關問題請寄信至 [這裡填聯絡的email]，我們將盡快與您連絡。
+          h5 聯絡資訊
+          .camp-contact
+            p
+              i.icon.mail
+              | E-mail: sln9233@gmail.com
+            p
+              i.icon.phone
+              | Phone: 0978-0310-09
       .section
         #schedule.ui.container
           h3 活動規劃
@@ -132,7 +145,7 @@ html
                         i.link.close.icon(value='2')
                       p 課程主題 《電路實作》
                       p 課程介紹
-                      p.schedule_introduce
+                      p.schedule_introduce (近期更新內容...)
                 tr
                   td 
                     | 12:00
@@ -184,7 +197,7 @@ html
                       p 專題演講 《資訊學群與資訊科技發展趨勢》
                       p 講師 廖宜恩 主任
                       p 演講介紹
-                      p.schedule_introduce
+                      p.schedule_introduce (近期更新內容...)
                   td 大地遊戲
                   td 結業典禮
                 tr
@@ -211,25 +224,25 @@ html
         #contact
           .ui.container
             h5 主辦單位
-            .ui.grid.stackable
-              .eight.wide.column
-                a.ui.image.logo_img(href='https://www.facebook.com/NCHU.CSESA/' target='_blank')
+            .ui.equal.width.grid.stackable
+              .column
+                a.ui.image.logo_img(href='https://www.facebook.com/NCHU.CSESA/', target='_blank')
                   .ui.dimmer
                     .content
                       p 中興資工系學會
                   img(src='./img/cse_logo.png')
+              .column
 
-  
             h5 協辦單位
-            .ui.grid.stackable
-              .eight.wide.column
-                a.ui.image.logo_img(href='http://www.cs.nchu.edu.tw/v3x/' target='_blank')
+            .ui.equal.width.grid.stackable
+              .column
+                a.ui.image.logo_img(href='http://www.cs.nchu.edu.tw/v3x/', target='_blank')
                   .ui.dimmer
                     .content
                       p 中興大學資工系
                   img(src='./img/nchu_cse_logo.png')
-              .eight.wide.column
-                a.ui.image.logo_img(href='http://nchuit.cc/' target='_blank')
+              .column
+                a.ui.image.logo_img(href='http://nchuit.cc/', target='_blank')
                   .ui.dimmer
                     .content
                       p 中興大學資訊社

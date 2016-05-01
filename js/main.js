@@ -2,17 +2,16 @@ jQuery(document).ready(function($) {
   $('#main').fullpage({
     sectionsColor: ['#0A0A0A', '#393E46', '#303841', '#3A4750', '#222831']
   });
-
   $(window).resize(function(){
-      autoScrolling();
+    autoScrolling();
   });
 
-  function autoScrolling(){
+  function autoScrolling() {
     var $window_width = $(window).width();
     if($window_width < 767){
-        $.fn.fullpage.setAutoScrolling(false);
+      $('#main').fullpage.setAutoScrolling(false);
     } else {
-        $.fn.fullpage.setAutoScrolling(true);
+      $('#main').fullpage.setAutoScrolling(true);
     }
   }
 
@@ -29,5 +28,8 @@ jQuery(document).ready(function($) {
     $('#schedule_detai_' + which_detail).modal('hide');
   });
 
-  autoScrolling();
+  setTimeout(function() {
+    $('#loader-wrapper').fadeOut(500);
+    autoScrolling();
+  }, 3000);
 });

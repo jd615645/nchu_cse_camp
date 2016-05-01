@@ -13,6 +13,7 @@ h4 {
   font-family:'Roboto', '黑體-繁', '微軟正黑體', sans-serif !important;
 }
 h5 {
+  margin-top: 15px;
   color: #00A5A2;
   font-size: 30px;
   font-family:'Roboto', '黑體-繁', '微軟正黑體', sans-serif !important;
@@ -62,6 +63,21 @@ a:hover, a:focus {
 #apply h5 {
   text-align: left;
 }
+#apply .wide p {
+  margin-bottom: 5px;
+}
+#apply .six.wide {
+  text-align: right;
+}
+#apply .ten.wide {
+  text-align: left;
+}
+#apply .camp-contact p {
+  text-align: left;
+  padding-left: 40px;
+  margin-bottom: 5px;
+}
+
 .camp-target p{
   margin-bottom: 0px;
   text-align: justify;
