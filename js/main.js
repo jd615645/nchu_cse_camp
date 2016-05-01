@@ -2,10 +2,6 @@ jQuery(document).ready(function($) {
   $('#main').fullpage({
     sectionsColor: ['#0A0A0A', '#393E46', '#303841', '#3A4750', '#222831']
   });
-  
-  $('#main').setAutoScrolling(false);
-  $('#main').setAllowScrolling(false);
-  $('#main').setKeyboardScrolling(false);
 
   setTimeout(function() {
     $('#loader-wrapper').fadeOut(500);
