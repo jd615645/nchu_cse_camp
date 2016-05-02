@@ -33,6 +33,4 @@ jQuery(document).ready(function($) {
     var which_detail = $(this).attr('value');
     $('#schedule_detai_' + which_detail).modal('hide');
   });
-
-  autoScrolling();
 });
