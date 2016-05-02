@@ -5,8 +5,6 @@ jQuery(document).ready(function($) {
 
   setTimeout(function() {
     $('#loader-wrapper').fadeOut(500);
-    $('#main').setAllowScrolling(tre);
-    $('#main').setKeyboardScrolling(false);
     autoScrolling();
   }, 3000);
 
@@ -36,4 +34,5 @@ jQuery(document).ready(function($) {
     $('#schedule_detai_' + which_detail).modal('hide');
   });
 
+  autoScrolling();
 });
