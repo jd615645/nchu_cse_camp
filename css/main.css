@@ -94,6 +94,7 @@ a:hover, a:focus {
   text-align: center !important;
 }
 #schedule_table td.schedule_detail:hover{ background-color: #314765; }
+#schedule_table td.schedule_detail { color: #E5E56B }
 
 .ui.modal .content { background-color: #393E46 }
 .ui.modal p { font-size: 16px }
