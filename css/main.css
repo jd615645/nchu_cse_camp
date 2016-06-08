@@ -18,9 +18,7 @@ h5 {
   font-size: 30px;
   font-family:'Roboto', '黑體-繁', '微軟正黑體', sans-serif !important;
 }
-p {
-  font-size: 20px;
-}
+p { font-size: 20px }
 a {
   font-weight : bold;
   color: #E5E56B;
@@ -35,43 +33,28 @@ a:hover, a:focus {
   font-family:'Roboto', '黑體-繁', '微軟正黑體', sans-serif !important;
 }
 
-#img_logo {
-  width: 70%;
-}
+#img_logo { width: 70% }
 
 .about-page {
   text-align: justify;
   text-indent: 40px;
 }
-.section {
-  text-align: center;
-}
+.section { text-align: center }
 .camp-target {
   padding-left: 40px;
   padding-bottom: 60px;
 }
 @media screen and (max-width: 767px) {
-  #about, #apply, #schedule, #contact {
-    margin: 30px 35px !important;
-  }
+  #about, #apply, #schedule, #contact { margin: 30px 35px !important }
 
-  .camp-target {
-    padding-bottom: 30px;
-  }
+  .camp-target { padding-bottom: 30px }
 }
 
-#apply h5 {
-  text-align: left;
-}
-#apply .wide p {
-  margin-bottom: 5px;
-}
-#apply .six.wide {
-  text-align: right;
-}
-#apply .ten.wide {
-  text-align: left;
-}
+#apply h5 { text-align: left }
+
+#apply .wide p { margin-bottom: 5px }
+#apply .six.wide { text-align: right }
+#apply .ten.wide { text-align: left }
 #apply .camp-contact p {
   text-align: left;
   padding-left: 40px;
@@ -82,59 +65,47 @@ a:hover, a:focus {
   margin-bottom: 0px;
   text-align: justify;
 }
-.camp-info p {
-  text-align: center;
-}
+.camp-info p { text-align: center }
 
 .camp-apply {
   text-align: justify;
   padding-left: 40px;
 }
-.camp-apply p {
-  margin-bottom: 0px;
-}
+.camp-apply p { margin-bottom: 0px }
 
-#schedule_table {
-  overflow-y: auto;
+#admit .column {
+  text-align: center !important;
+  font-size: 25px;
 }
+#admit .paid { color: #E5E56B }
+#admit p { padding-top: 15px }
+#admit span { color: #E5E56B }
 
-#schedule_table table{
+#schedule_table { overflow-y: auto }
+#schedule_table table {
   width: 100%;
   background-color: #2D4059;
 }
-#schedule_table td {
-  border: 2px solid #3A4750;
-}
+#schedule_table td { border: 2px solid #3A4750 }
 #schedule_table td {
   padding: 15px 5px;
   color: #EEEEEE;
   font-size: 16px;
   text-align: center !important;
 }
-#schedule_table td.schedule_detail:hover{
-  background-color: #314765;
-}
-.ui.modal .content {
-  background-color: #393E46;
-}
-.ui.modal p {
-  font-size: 16px;
-}
+#schedule_table td.schedule_detail:hover{ background-color: #314765; }
+
+.ui.modal .content { background-color: #393E46 }
+.ui.modal p { font-size: 16px }
 .ui.modal p:first-child {
   text-align: right;
   margin-bottom: 0px;
 }
-.ui.modal p.schedule_introduce {
-  text-indent: 32px;
-}
+.ui.modal p.schedule_introduce { text-indent: 32px }
 
-#contact h5 {
-  text-align: left;
-}
+#contact h5 { text-align: left }
 
-.logo_img img{
-  width: 380px;
-}
+.logo_img img{ width: 380px }
 .logo_img figcaption{
   position: absolute;
   top: 0;

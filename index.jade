@@ -68,7 +68,7 @@ html
           p(style='text-align: left; margin: 10px 0px;')
             | 若要報名至下方連結填寫資料
             a(target='_blank', href='https://goo.gl/EtrAf5') 繳費說明
-          a.fluid.ui.button(target='_blank', href='http://goo.gl/forms/92cklpc6de') 我要報名！
+          a.fluid.ui.button.disabled(target='_blank', href='http://goo.gl/forms/92cklpc6de') 報名已截止 
           h5 注意事項
           .camp-apply
             p * 活動費用包含食宿、保險、講師費、材料費、營服等。
@@ -86,6 +86,15 @@ html
             p
               i.icon.phone
               | Phone: 0978-0310-09
+      .section
+        #admit.ui.container
+          h3 錄取團員
+          #student
+            .ui.grid
+          p
+            span 黃色
+            | 標示為已繳費
+
       .section
         #schedule.ui.container
           h3 活動規劃
