@@ -75,7 +75,8 @@ a:hover, a:focus {
 
 #admit .column {
   text-align: center !important;
-  font-size: 25px;
+  font-size: 18px;
+  padding: 5px;
 }
 #admit .paid { color: #E5E56B }
 #admit p { padding-top: 15px }
